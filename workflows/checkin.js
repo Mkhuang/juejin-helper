@@ -259,7 +259,7 @@ class CheckIn {
     console.log(`运行 ${this.lotteriesTask.taskName}`);
     await this.lotteriesTask.run(this.growthTask, this.dipLuckyTask);
     console.log(`运行 ${this.bugfixTask.taskName}`);
-    await this.bugfixTask.run();
+//     await this.bugfixTask.run();
     await juejin.logout();
     console.log("-------------------------");
   }
